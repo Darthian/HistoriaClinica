@@ -1,0 +1,14 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>co.edu.unal.consultorioLD</groupId>
+  <artifactId>HistoriaClinicaLD</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>Historia Clinica</name>
+  <description>Aplicacion para la Gestion de la Informacion del Consultorio de Lipidos y Diabetes de la Facultad de Medicina de la Universidad Nacional de Colombia</description>
+  <modules>
+  	<module>HistoriaClinicaLDWeb</module>
+  	<module>HistoriaClinicaLDService</module>
+  	<module>HistoriaClinicaLDPersistence</module>
+  </modules>
+</project>

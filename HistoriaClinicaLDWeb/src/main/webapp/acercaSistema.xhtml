@@ -16,53 +16,29 @@
 		<div id="cabecera" align="center">
 			<a href="#"> <img src="images/logo.png" />
 			</a>
-			<h2>Sistema de gestión de informacion de pacientes con diabetes</h2>
+			<h2>Sistema de Gestión de pacientes con Diabetes</h2>
 		</div>
 
 		<div id="lista" align="center">
 			<ul >				
-				<li class="item"><a href="acercaSistema.xhtml">El sistema</a></li>
+				<li class="item"><a href="index.xhtml">Iniciar Sesión</a></li>
 				<li class="item"><a href="acercaConsultorio.xhtml">El consultorio</a></li>				
-				<li class="item"><a href="#">La aplicacion</a></li>
+				<li class="item"><a href="acercaAplicacion.xhtml">La aplicacion</a></li>
 			</ul>
 		</div>
 
 		<div id="contenedor-cuerpo">
 
 			<div id="contenedor-formulario">
-			
 				<div id="formulario-enunciado">
-					<p:panelGrid columns="1">
-						<p>Ingresar la informacion de usuario para iniciar sesión</p>
-					</p:panelGrid>
+					<p>Informacion acerca del sistema <br/>Nemo patriam quia magna est amat, sed quia sua</p>
 				</div>
-				<div id="formulario-leyendas">
-					<h:form>
-						<p:panelGrid columns="2">
-							<p>Nombre de Usuario:</p>
-							<p:inputText value="#{userMB.nickName}"></p:inputText>
-							<p>Clave:</p>
-							<p:password value="#{userMB.password}"></p:password>
-						</p:panelGrid>
-					</h:form>
-				</div>
-				<div class="clear"></div>
-				<div id="contenedor-boton">
-					<p:commandButton action="#{userMB.verificarDatos()}"
-						value="Iniciar Sesion"></p:commandButton>
-				</div>
-
 			</div>
 
 			<div id="contenedor-imagen">
-
-				<p:imageSwitch effect="fade" id="fadeEffect">
-					<ui:repeat value="#{imagesView.images}" var="image" id="fadeEffectImages">
-        				<p:graphicImage value="/images/#{image}" width="650" height="400" id="image" />
-    				</ui:repeat>
-				</p:imageSwitch>
-
+				<img id="imagenFuente" src="images/gente.jpg" />
 			</div>
+
 		</div>
 
 		<div class="clear"></div>
@@ -77,6 +53,12 @@
 			</div>
 		</div>
 
+		<div class="clear"></div>
+
 	</div>
+
+
+
+
 </body>
 </html>
